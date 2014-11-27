@@ -1,0 +1,21 @@
+{
+    // an array of options to pass to flow
+    "options" : [
+        "--timeout 5"
+    ]
+
+    // if true, run flow on save.
+    ,"run_on_save" : false 
+
+    // a regex for filenames to be flow'ed on save
+    ,"filename_filter": "(\\.js)$"
+
+
+    // Flow command you want to run as an array of strings.
+    // E.g.: ["flow"] or ["/usr/local/bin/flow"]
+    // Default is
+    //    * nix: ["flow", "status"]
+    //    * Mac: ["flow", "status"]
+    ,"flow_command" : ["flow", "--version"]
+
+}
