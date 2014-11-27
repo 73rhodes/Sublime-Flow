@@ -29,8 +29,9 @@ Flow checks entire directories. Any JavaScript files
 that you want checked with Flow should 
 include the following line in their headers:
 
-  /* @flow */
-
+```
+/* @flow */
+```
 
 Any of the following will work:
 
