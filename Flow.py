@@ -22,7 +22,7 @@ class FlowExecCommand(sublime_plugin.WindowCommand):
 				settings.get('options', []) +
 				files,
 			'path': path,
-			'line_regex': settings.get('line_regex', '.*// Line ([0-9]*), Pos ([0-9]*)$'),
+			#'line_regex': settings.get('line_regex', '.*// Line ([0-9]*), Pos ([0-9]*)$'),
 			'file_regex': settings.get('file_regex', '(^[^# ]+.*$)')
 		})
 
