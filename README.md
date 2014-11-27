@@ -1,9 +1,8 @@
 Sublime-Flow
 ==============
 
-   This is a beta version, I'm just now getting flow integrated
-   into my dev / build setup. Please feel free to raise issues or
-   pull requests. Thanks.
+   This is a beta version. Please feel free to raise issues
+   or pull requests.
 
 A Sublime package for Flow, the static JavaScript analyzer
 
