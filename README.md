@@ -9,7 +9,6 @@ A Sublime package for Flow, the static JavaScript analyzer
 
    * It needs [Flow](http://flowtype.org) installed on your system.
    * The `flow` command must be in your `PATH`.
-   * It can automatically run Flow when you save a .js file.
    * Works on Linux and MacOS only.
 
 Prerequisites
@@ -24,8 +23,14 @@ TBD
 
 Usage
 -----
-Any JavaScript files that you want checked with Flow should include the
-following line 
+You *must* first run `flow init` in your project directory.
+
+Flow checks entire directories. Any JavaScript files 
+that you want checked with Flow should 
+include the following line in their headers:
+
+  /* @flow */
+
 
 Any of the following will work:
 
