@@ -18,7 +18,7 @@
     ,"flow_command" : ["flow", "check"]
 
 
-    // if your own personal choice of jslint has an output
+    // if your own personal choice of flow has an output
     // different from the standard which comes with this package,
     // you may have to change line_regex and file_regex
     // check http://docs.sublimetext.info/en/latest/reference/build_systems.html
