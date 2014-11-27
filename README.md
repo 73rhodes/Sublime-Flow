@@ -37,7 +37,7 @@ Any of the following will work:
    * Bring up the **Command Palette** (`Command+Shift+P` on OS X, `Control+Shift+P` on Linux/Windows), then type `Flow`.
    * Click the **Tools > Flow** menu entry.
    * Press `CTRL+F`.
-   * (After enabling flow-on-save in the settings) Just save a `.js` file.
+   * Set the Build System to Flow, then run Build (`Command+B` on OSX)
 
 Settings
 --------
