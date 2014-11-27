@@ -15,6 +15,6 @@
     // Default is
     //    * nix: ["flow", "status"]
     //    * Mac: ["flow", "status"]
-    ,"flow_command" : ["flow", "--version"]
+    ,"flow_command" : ["flow", "check"]
 
 }
