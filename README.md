@@ -1,6 +1,10 @@
 Sublime-Flow
 ==============
 
+   This is a beta version, I'm just now getting flow integrated
+   into my dev / build setup. Please feel free to raise issues or
+   pull requests. Thanks.
+
 A Sublime package for Flow, the static JavaScript analyzer
 
    * It needs [Flow](http://flowtype.org) installed on your system.
@@ -20,6 +24,9 @@ TBD
 
 Usage
 -----
+Any JavaScript files that you want checked with Flow should include the
+following line 
+
 Any of the following will work:
 
    * Bring up the **Command Palette** (`Command+Shift+P` on OS X, `Control+Shift+P` on Linux/Windows), then type `Flow`.
