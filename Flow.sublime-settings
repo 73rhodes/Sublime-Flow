@@ -1,7 +1,6 @@
 {
     // an array of options to pass to flow
     "options" : [
-        "--timeout 5"
     ]
 
     // if true, run flow on save.
