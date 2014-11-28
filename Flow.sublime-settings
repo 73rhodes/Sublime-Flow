@@ -23,8 +23,6 @@
     // you may have to change line_regex and file_regex
     // check http://docs.sublimetext.info/en/latest/reference/build_systems.html
     // to find out how these regular expressions work. The defaults are:
-    //,"file_regex" : "(^[^# ]+.*$)"
-    //,"line_regex" : "/.* Line ([0-9]*), Pos ([0-9]*)$"
     ,"file_regex" : "(\\/.*\\.js):(\\d+):.*$"
     //,"line_regex" : ".*js:(\\d+)"
 }
