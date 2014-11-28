@@ -2,7 +2,7 @@
 	"cmd": [
 	  "flow", 
 	  "check",
-	  "$file"
+	  "$file_path"
 	],
 	"file_regex": "^\\/.*\\/([^\\/]*)$",
 	"line_regex": ".*\/\/ Line ([0-9]*), Pos ([0-9]*)$",
