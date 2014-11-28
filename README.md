@@ -13,7 +13,7 @@ A Sublime package for Flow, the static JavaScript analyzer
 Prerequisites
 -------------
 Flow must be installed on your system globally. It's recommended to
-install flow to /usr/bin/.
+install flow to /usr/local/bin/.
 
 Installation
 ------------
