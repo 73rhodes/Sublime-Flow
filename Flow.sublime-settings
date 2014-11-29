@@ -20,6 +20,5 @@
 
     // See http://docs.sublimetext.info/en/latest/reference/build_systems.html
     // to find out how these regular expressions work.
-    ,"file_regex" : "(\\/.*\\.js):(\\d+):.*$"
-    //,"line_regex" : ".*js:(\\d+)"
+    ,"file_regex" : "(\\/.*\\.js):(\\d+):(\\d+),.*$"
 }
