@@ -4,7 +4,6 @@
 	  "check",
 	  "$file_path"
 	],
-	"file_regex": "^\\/.*\\/([^\\/]*)$",
-	"line_regex": ".*\/\/ Line ([0-9]*), Pos ([0-9]*)$",
+        ,"file_regex" : "(\\/.*\\.js):(\\d+):.*$"
 	"selector": "source.js"
 }
