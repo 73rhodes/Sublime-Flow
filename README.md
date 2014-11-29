@@ -1,19 +1,15 @@
 Sublime-Flow
 ==============
 
-   This is a beta version. Please feel free to raise issues
-   or pull requests.
+A Sublime package for Flow, the static JavaScript analyzer.
 
-A Sublime package for Flow, the static JavaScript analyzer
-
-   * It needs [Flow](http://flowtype.org) installed on your system.
-   * The `flow` command must be in your `PATH`.
-   * Works on Linux and MacOS only.
+   * Run [Flow](http://flowtype.org) on JavaScript projects from SublimeText
+   * Linux and OS X are supported. 
 
 Prerequisites
 -------------
-Flow must be installed on your system globally. It's recommended to
-install flow to /usr/local/bin/.
+   * [Flow](http://flowtype.org) must be installed on your system.
+   * Recommended: install `flow` to `/usr/local/bin/`.
 
 Installation
 ------------
@@ -22,11 +18,11 @@ TBD
 
 Usage
 -----
-You *must* first run `flow init` in your project directory.
 
-Flow checks entire directories. Any JavaScript files 
-that you want checked with Flow should 
-include the following line in their headers:
+You must run `flow init` in your project directory before Flow can be used on it.
+
+Flow checks entire directories. Any JavaScript files that you want checked with 
+Flow must include the following line in their headers:
 
 ```
 /* @flow */
