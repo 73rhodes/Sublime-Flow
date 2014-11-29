@@ -4,6 +4,6 @@
 	  "check",
 	  "$file_path"
 	],
-        ,"file_regex" : "(\\/.*\\.js):(\\d+):.*$"
+        "file_regex" : "(\\/.*\\.js):(\\d+):.*$",
 	"selector": "source.js"
 }
