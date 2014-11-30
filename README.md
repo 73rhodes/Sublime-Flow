@@ -15,7 +15,21 @@ Prerequisites
 Installation
 ------------
 
-TBD
+### Using Package Control:
+   * Install the [Package Control](https://sublime.wbond.net/installation) plugin if you don't have it
+   * Press Ctrl+Shift+P to bring up the Command Palette (or use Tools > Command Palette menu)
+   * Select Package Control: Install Package
+   * Type 'Flow' to find Flow for Sublime Text 2 and 3
+   * Select 'Flow for Sublime Text 2 and 3' to install
+
+
+### Not using Package Control:
+   * Get files from the [package archive](https://github.com/darrenderidder/Sublime-Flow/archive/master.zip)
+   * unzip to your Packages/Flow directory, for example:
+      * Linux: ~/.config/sublime-text-2/Packages/JSLint
+      * Mac: ~/Library/Application Support/Sublime Text 2/Packages/JSLint
+      * Windows: %APPDATA%/Sublime Text 2/Packages/JSLint
+   * Relaunch Sublime Text
 
 Usage
 -----
