@@ -8,9 +8,13 @@ import os
 EXEC_FLOW = 'flow_exec'
 SETTINGS_FILE = 'Flow.sublime-settings'
 
-class FlowExecCommand(sublime_plugin.WindowCommand):
+# Invoked via Tools > Flow 
+class FlowCommand(sublime_plugin.WindowCommand):
 
-	def run(self, files=[]):
+	def run(self):
+		# Flow operates on directories and will use the path prefix
+		files = [self.window.active_view().file_name()]
+
 		settings = sublime.load_settings(SETTINGS_FILE)
 		if os.name == "posix":
 			path = "/usr/local/bin:" + os.environ['PATH']
@@ -37,12 +41,3 @@ class FlowOnSave(sublime_plugin.EventListener):
 				'files': [view.file_name()]
 			})
 
-
-# Invoked via Tools > Flow 
-
-class FlowCommand(sublime_plugin.WindowCommand):
-
-	def run(self):
-		self.window.run_command(EXEC_FLOW, {
-			'files': [self.window.active_view().file_name()]
-		})
