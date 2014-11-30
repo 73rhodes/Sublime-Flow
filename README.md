@@ -10,7 +10,9 @@ Prerequisites
 -------------
 
    * [Flow](http://flowtype.org) must be installed on your system.  It's recommended to install `flow` to `/usr/local/bin/`.
-   * You must run `flow init` in your project directory before Flow can be used on it.
+   * To allow Flow to work in your project directory you must either
+     1 run `flow init` in your project directory
+     2 or create an empty `.flowconfig` file in your project's root directory
 
 Installation
 ------------

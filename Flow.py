@@ -5,6 +5,7 @@ import sublime_plugin
 import re
 import os
 
+# Sublime internally maps 'flow' to the FlowCommand class
 EXEC_FLOW = 'flow'
 SETTINGS_FILE = 'Flow.sublime-settings'
 
@@ -22,7 +23,7 @@ class FlowCommand(sublime_plugin.WindowCommand):
 			path = os.environ['PATH']
 		self.window.run_command('exec', {
 			'cmd':
-				settings.get('flow_command', ['flow']) +
+				settings.get('flow_command', ['flow', 'check']) +
 				settings.get('options', []) +
 				files,
 			'path': path,
