@@ -5,15 +5,15 @@ import sublime_plugin
 import re
 import os
 
-EXEC_FLOW = 'flow_exec'
+EXEC_FLOW = 'flow'
 SETTINGS_FILE = 'Flow.sublime-settings'
 
 # Invoked via Tools > Flow 
 class FlowCommand(sublime_plugin.WindowCommand):
 
-	def run(self):
+	def run(self, files=[]):
 		# Flow operates on directories and will use the path prefix
-		files = [self.window.active_view().file_name()]
+		files = files or [self.window.active_view().file_name()]
 
 		settings = sublime.load_settings(SETTINGS_FILE)
 		if os.name == "posix":
