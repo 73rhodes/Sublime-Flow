@@ -9,10 +9,10 @@ A Sublime package for Flow, the static JavaScript analyzer.
 Prerequisites
 -------------
 
-   * [Flow](http://flowtype.org) must be installed on your system.  It's recommended to install `flow` to `/usr/local/bin/`.
-   * To allow Flow to work in your project directory you must either
-     1 run `flow init` in your project directory
-     2 or create an empty `.flowconfig` file in your project's root directory
+  * [Flow](http://flowtype.org) must be installed on your system.  It's recommended to install `flow` to `/usr/local/bin/`.
+  * To allow Flow to work in your project directory you must either
+    - run `flow init` in your project directory
+    - or create an empty `.flowconfig` file in your project's root directory
 
 Installation
 ------------
