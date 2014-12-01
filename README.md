@@ -48,13 +48,14 @@ Flow must include the following line in their headers:
 Sublime-Flow includes both a command plug-in and a build system.
 
 There are several ways to run the Flow command:
-   * Bring up the **Command Palette** (`Command+Shift+P` on OS X, `Control+Shift+P` on Linux/Windows), then type `Flow`.
-   * Click the **Tools > Flow** menu entry.
-   * Press `CTRL+F`.
+
+* Bring up the **Command Palette** (`Command+Shift+P` on OS X, `Control+Shift+P` on Linux/Windows), then type `Flow`.
+* Click the **Tools > Flow** menu entry.
+* Press `CTRL+F`.
 
 Using the Flow build system:
-   * Set the Build System to Flow, then run Build (`Command+B` on OSX)
-   * Alternately, set the Build System to automatic; the Flow build system will be selected for `.js` files automatically. If another build system has already been configured to work with `.js` files, this may not work.
+* Set the Build System to Flow, then run Build (`Command+B` on OSX)
+* Alternately, set the Build System to automatic; the Flow build system will be selected for `.js` files automatically. If another build system has already been configured to work with `.js` files, this may not work.
 
 Settings
 --------
