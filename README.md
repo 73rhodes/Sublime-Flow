@@ -36,10 +36,9 @@ Installation
 Usage
 -----
 
-You must run `flow init` in your project directory before Flow can be used on it.
+Flow checks entire directories. You must run `flow init` in your project directory, or manually create a `.flowconfig` file there, before Flow can be used on it.
 
-Flow checks entire directories.  Any JavaScript files that you want checked with 
-Flow must include the following line in their headers:
+Any JavaScript files that you want checked with Flow must include the following line in their headers:
 
 ```
 /* @flow */
