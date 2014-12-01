@@ -5,11 +5,11 @@ import sublime_plugin
 import re
 import os
 
-# Sublime internally maps 'flow' to the FlowCommand class
 EXEC_FLOW = 'flow'
 SETTINGS_FILE = 'Flow.sublime-settings'
 
-# Invoked via Tools > Flow 
+# Sublime internally maps 'flow' to this FlowCommand class
+# Invoked via Build, Tools, ctrl-f, etc.
 class FlowCommand(sublime_plugin.WindowCommand):
 
 	def run(self, files=[]):
