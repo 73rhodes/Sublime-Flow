@@ -53,6 +53,7 @@ There are several ways to run the Flow command:
 * Press `CTRL+F`.
 
 Using the Flow build system:
+
 * Set the Build System to Flow, then run Build (`Command+B` on OSX)
 * Alternately, set the Build System to automatic; the Flow build system will be selected for `.js` files automatically. If another build system has already been configured to work with `.js` files, this may not work.
 
