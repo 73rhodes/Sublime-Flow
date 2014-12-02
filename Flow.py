@@ -17,6 +17,7 @@ class FlowCommand(sublime_plugin.WindowCommand):
 		files = files or [self.window.active_view().file_name()]
 
 		settings = sublime.load_settings(SETTINGS_FILE)
+
 		if os.name == "posix":
 			path = "/usr/local/bin:" + os.environ['PATH']
 		else:
@@ -24,7 +25,7 @@ class FlowCommand(sublime_plugin.WindowCommand):
 		self.window.run_command('exec', {
 			'cmd':
 				settings.get('flow_command', ['flow', 'check']) +
-				settings.get('options', []) +
+				settings.get('flow_options', []) +
 				files,
 			'path': path,
 			'file_regex': settings.get('file_regex', '(\\/.*\\.js):(\\d+):(\\d+),.*$')

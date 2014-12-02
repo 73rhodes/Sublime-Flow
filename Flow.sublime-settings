@@ -1,6 +1,15 @@
 {
+
+    // Flow command you want to run as an array of strings.
+    // E.g.: ["flow"] or ["/usr/local/bin/flow"]
+    // Default is
+    //    * nix: ["flow", "status"]
+    //    * Mac: ["flow", "status"]
+    "flow_command" : ["flow", "check"]
+
     // an array of options to pass to flow
-    "options" : [
+    ,"flow_options" : [
+      // "--lib", "./lib/"
     ]
 
     // if true, run flow on save.
@@ -8,15 +17,6 @@
 
     // a regex for filenames to be flow'ed on save
     ,"filename_filter": "(\\.js)$"
-
-
-    // Flow command you want to run as an array of strings.
-    // E.g.: ["flow"] or ["/usr/local/bin/flow"]
-    // Default is
-    //    * nix: ["flow", "status"]
-    //    * Mac: ["flow", "status"]
-    ,"flow_command" : ["flow", "check"]
-
 
     // See http://docs.sublimetext.info/en/latest/reference/build_systems.html
     // to find out how these regular expressions work.
